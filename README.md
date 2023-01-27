@@ -1,35 +1,41 @@
-# vue-project
 
-This template should help get you started developing with Vue 3 in Vite.
+# Quote Application
 
-## Recommended IDE Setup
+This application is built using Vue.js and allows users to store and manage quotes.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Features
 
-## Customize configuration
+-   Create quotes with the following fields:
+    -   Quote text (cannot be empty)
+    -   Quote author (cannot be empty, only letters - Latin or Cyrillic)
+    -   Quote Genre (May be one or more, only letters - Latin or Cyrillic)
+    -   Quote ID (Auto generated)
+    -   Quote generation time (Automatically generated)
+    -   Quote Update Time (Auto-generated)
+-   Edit a quote
+-   View a quote
+-   Delete a quote (Confirmation required)
+-   List of quotes
+-   Search by text and quote author
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Setup
 
-## Project Setup
+To run the application locally, clone the repository and install the dependencies:
 
-```sh
-npm install
-```
+    git clone https://github.com/Ahmadrameen/Quotes---Add-get-edit-and-delete-quotes-from-local-storage-using-vue.git
+    cd [directory]
+    npm install 
 
-### Compile and Hot-Reload for Development
+To run the application:
 
-```sh
-npm run dev
-```
+`npm run dev` 
 
-### Compile and Minify for Production
+The application will be available at [http://localhost:8080](http://localhost:8080/)
 
-```sh
-npm run build
-```
+## Contributing
 
-### Lint with [ESLint](https://eslint.org/)
+If you would like to contribute to the development of this application, please fork the repository and create a pull request with your changes.
 
-```sh
-npm run lint
-```
+## License
+
+This application is licensed under the MIT License.
